@@ -662,7 +662,6 @@ public int JHUDSettingsMenu_Handler(Menu menu, MenuAction action, int client, in
 		char info[32];
 		GetMenuItem(menu, option, info, sizeof(info));
 		int i = StringToInt(info, sizeof(info));
-		lastChoice = info;
 		
 		if(StrEqual(lastChoice, "< 60 Gain"))
 		{
